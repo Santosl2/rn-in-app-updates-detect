@@ -41,13 +41,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/Santosl2/react-native-app-update-detect",
+  "repository": "git@github.com:Santosl2/rn-in-app-updates-detect.git",
   "author": "Santosl2 <mfilype2019@gmail.com> (https://github.com/Santosl2)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Santosl2/react-native-app-update-detect/issues"
+    "url": "git@github.com:Santosl2/rn-in-app-updates-detect.git/issues"
   },
-  "homepage": "https://github.com/Santosl2/react-native-app-update-detect#readme",
+  "homepage": "git@github.com:Santosl2/rn-in-app-updates-detect.git#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

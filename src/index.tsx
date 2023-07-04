@@ -17,6 +17,6 @@ const AppUpdateDetect = NativeModules.AppUpdateDetect
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return AppUpdateDetect.multiply(a, b);
+export function checkAppUpdate() {
+  return AppUpdateDetect.checkIfHasUpdate();
 }
