@@ -11,11 +11,11 @@ npm install react-native-app-update-detect
 ## Usage
 
 ```js
-import { multiply } from 'react-native-app-update-detect';
+import { checkAppUpdate } from 'react-native-app-update-detect';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await checkAppUpdate();
 ```
 
 ## Contributing
