@@ -17,6 +17,10 @@ const AppUpdateDetect = NativeModules.AppUpdateDetect
       }
     );
 
-export function checkAppUpdate() {
+type CheckUpdateReturn = {
+  hasUpdate: 0 | 1;
+  clientVersionStaleness?: number;
+};
+export function checkAppUpdate(): Promise<CheckUpdateReturn> {
   return AppUpdateDetect.checkIfHasUpdate();
 }

@@ -1,7 +1,7 @@
 {
   "name": "rn-in-app-updates-detect",
-  "version": "0.1.0",
-  "description": "Detect play store updates",
+  "version": "0.2.0",
+  "description": "Detect App Play Store Updates",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "src/index.d.ts",

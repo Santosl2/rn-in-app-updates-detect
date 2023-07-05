@@ -6,8 +6,8 @@ import { checkAppUpdate } from 'react-native-app-update-detect';
 export default function App() {
   React.useEffect(() => {
     checkAppUpdate()
-      .then((res: any) => {
-        console.log(res);
+      .then((res) => {
+        console.log(res.hasUpdate);
       })
       .catch((err: any) => {
         console.log(err);

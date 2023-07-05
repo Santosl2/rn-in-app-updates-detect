@@ -1,3 +1,7 @@
 declare module 'rn-in-app-updates-detect' {
-  export function checkAppUpdate(): Promise<any>;
+  type CheckUpdateReturn = {
+    hasUpdate: boolean;
+    clientVersionStaleness?: number;
+  };
+  export function checkAppUpdate(): Promise<CheckUpdateReturn>;
 }
